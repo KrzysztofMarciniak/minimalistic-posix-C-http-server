@@ -4,7 +4,7 @@ CFLAGS  += -D_POSIX_C_SOURCE=200809L
 LDFLAGS ?=
 LDLIBS  ?=
 
-TARGET    := output
+TARGET    := mpchs
 SRC_DIR   := src
 BUILD_DIR := build
 BIN_DIR   := bin
