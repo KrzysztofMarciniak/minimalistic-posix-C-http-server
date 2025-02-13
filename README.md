@@ -2,6 +2,12 @@
 
 A simple, minimalistic HTTP server written in C using POSIX system calls and pthreads. This server is designed to serve static HTML files based on defined routes.
 
+```
+$ size bin/mpchs
+   text    data     bss     dec     hex filename
+   5630     832    1088    7550    1d7e bin/mpchs
+```
+
 ## Features
 - Handles HTTP GET requests.
 - Serves HTML files defined in a routing configuration.
